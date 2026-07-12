@@ -1,0 +1,16 @@
+[project]
+name = "coding-quiz"
+version = "0.1.0"
+description = "コーディングテスト対策問題集の解答検証プロジェクト"
+requires-python = ">=3.10"
+dependencies = []
+
+[dependency-groups]
+dev = [
+    "pytest>=8.0",
+    "ruff>=0.15.21",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# 仮想環境
+.venv/
+venv/
+
+# uv
+# (uv.lock はコミット推奨のため無視しない)
+
+# テスト・カバレッジ
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+
+# 型チェック・lint
+.mypy_cache/
+.ruff_cache/
+.pytype/
+
+# エディタ・OS
+.vscode/
+.idea/
+.DS_Store
